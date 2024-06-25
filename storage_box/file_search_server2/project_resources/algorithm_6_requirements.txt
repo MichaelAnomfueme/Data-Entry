@@ -1,0 +1,6 @@
+socket
+threading
+re
+time
+configparser
+cryptography==39.0.1

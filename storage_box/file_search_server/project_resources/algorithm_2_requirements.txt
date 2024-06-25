@@ -1,0 +1,7 @@
+configparser
+socket
+ssl
+threading
+time
+typing
+

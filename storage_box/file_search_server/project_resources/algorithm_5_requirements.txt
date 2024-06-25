@@ -1,0 +1,5 @@
+asyncio==3.4.3
+re
+time
+configparser
+aiofiles==22.1.0

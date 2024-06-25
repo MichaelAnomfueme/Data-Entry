@@ -1,0 +1,6 @@
+socket
+threading
+re
+time
+hashlib==20081119
+configparser

@@ -1,0 +1,10 @@
+A: Abuja,B: Lyon,C: Paris,D: Cape Town
+A: 24,B: 36,C: 18,D: 25
+A: Elon Musk,B: Mike Blomberg,C: Naza James,D: Jeff Bezos
+A: Tesla,B: Xpance,C: Edge,D: Bolt
+A: 1963,B: 1971,C: 1914,D: 1960
+A: George Bush,B: Donald Trump,C: Barack Obama,D: Joe Biden
+A: Pretoria,B: Cape Town,C: Johannesburg,D: Bloemfontein
+A: England,B: Uganda,C: Canada,D: France
+A: Algeria,B: Egypt,C: Ghana,D: Nigeria
+A: 2023,B: 2013,C: 2017,D: 2021

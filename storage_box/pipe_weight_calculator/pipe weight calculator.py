@@ -1,0 +1,36 @@
+def main():
+    try:
+        pi = float(3.14159)
+        pvc_density = float(1450)
+        diameter_mm = input('Enter Diameter (MM): ')
+        thickness_mm = input('Enter Thickness (MM): ')
+        lenght_ft = input('Enter Length (FT): ')
+        cost_per_kg = input('Enter Cost Per Kg (NGN): ')
+        quantity = input('Enter Quantity: ')
+        diameter_m = ((float(diameter_mm)) / 1000)
+        thickness_m = ((float(thickness_mm)) / 1000)
+        lenght_m = ((float(lenght_ft)) * 0.3048)
+        cost_per_kg1 = (float(cost_per_kg))
+        quantity1 = (float(quantity))
+        inner_diameter = (diameter_m - (2 * thickness_m))
+        volume = (pi * (((diameter_m / 2) ** 2) - ((inner_diameter / 2) ** 2)) * lenght_m)
+        round_volume = round(volume, 4)
+        weight = (volume*pvc_density)
+        round_weight = round(weight, 4)
+        gross_weight = (weight*quantity1)
+        round_gross_weight = round(gross_weight, 4)
+        unit_cost = (weight*cost_per_kg1)
+        round_unit_cost = round(unit_cost, 2)
+        gross_cost = (unit_cost*quantity1)
+        round_gross_cost = round(gross_cost, 2)
+
+        print('Unit Volume = ' + str(round_volume) + 'M^3')
+        print('Unit Weight = ' + str(round_weight) + 'Kg')
+        print('Gross Weight = ' + str(round_gross_weight) + 'Kg')
+        print('Unit Cost = NGN ' + str(round_unit_cost))
+        print('Gross Cost = NGN ' + str(round_gross_cost))
+    except ValueError:
+        print('One or more invalid input!')
+
+
+main()
