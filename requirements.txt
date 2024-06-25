@@ -1,0 +1,8 @@
+socket
+threading
+time
+configparser
+sys
+hashlib
+mypy
+pytest==7.2.1
